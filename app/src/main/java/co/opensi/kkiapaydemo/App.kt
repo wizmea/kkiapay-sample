@@ -10,6 +10,5 @@ class App : Application() {
         Kkiapay.init(applicationContext, "YOUR-KKIAPAY-KEY", SdkConfig(themeColor = R.color.colorPrimary,
             imageResource = R.raw.armoiries)
         )
-
     }
 }
